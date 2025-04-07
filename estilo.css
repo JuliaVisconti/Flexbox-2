@@ -1,0 +1,105 @@
+
+.flex-item {
+
+    width: 100px;
+    height: 100px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+
+}
+
+.base {
+
+    margin-bottom: 15px;
+    background-color: #d0d3d4;
+    border-radius: 4px;
+
+}
+
+.box1 {
+
+    background-color: #63b1bc;
+
+}
+
+.box2 {
+
+    background-color: #1f2a44;
+
+}
+
+.box3 {
+
+    background-color: #ed145b;
+
+}
+
+.box4 {
+
+    background-color: #efb661;
+
+}
+
+h1 {
+
+    width: fit-content;
+    margin: auto;
+
+}
+
+.container1 {
+    
+    display: flex;                             /* sem ele, os blocos ficam em coluna. O flex deixa os blocos em linha */
+    flex-direction: column-reverse;            /* deixa em coluna */
+    /* display: row;                           deixaria em linha */
+
+}
+
+.container_desafio {
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+
+}
+
+.container2 {
+    
+    display: flex;
+    flex-direction: row;                      /* garante que os blocos fiquem em linha */
+    justify-content: flex-end;                /* exibe os blocos no final da div */
+
+}
+
+.container3 {
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.container4 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;           /* insere um espaço ENTRE os blocos da div */
+
+}
+
+.container5 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;           /* insere espaços AO REDOR de todos os blocos da div (os espaços dos cantos não são indênticos aos do centro) */
+
+}
+
+.container6 {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;          /* insere o mesmo espaço ENTRE e AO REDOR os blocos (todos os espaços tem o mesmo tamanho) */
+
+}
