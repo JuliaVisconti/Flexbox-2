@@ -51,7 +51,7 @@ h1 {
 .container1 {
     
     display: flex;                             /* sem ele, os blocos ficam em coluna. O flex deixa os blocos em linha */
-    flex-direction: column-reverse;            /* deixa em coluna */
+    flex-direction: column-reverse;            /* deixa em coluna e ao contrário */
     /* display: row;                           deixaria em linha */
 
 }
@@ -59,8 +59,8 @@ h1 {
 .container_desafio {
 
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-end;
+    flex-direction: row-reverse;               /* deixa em linha e ao contrário */
+    justify-content: flex-end;                 /* agora com tudo ao contrário, o texto fica no "fim" da linha (que no caso é o começo) */
 
 }
 
